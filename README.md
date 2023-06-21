@@ -25,8 +25,7 @@ import { DateDuration } from "https://deno.land/x/date_duration";
 The class is based on the [ms](https://github.com/vercel/ms) package.
 
 ```ts
-const interval = "2d";
-const duration = new DateDuration(interval);
+const duration = new DateDuration("2d");
 ```
 
 Access the properties and methods of the `DateDuration` instance:
